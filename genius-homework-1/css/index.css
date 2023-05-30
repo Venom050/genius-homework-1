@@ -1,0 +1,161 @@
+:root {
+    --color-light-brand: #2B7FFF;
+    --color-dark-brand: #011C44;
+    --color-secodary-light:#FFFFFF;
+    --color-secodary-dark: #000000;
+    --color-third: #4A4A4A;
+}
+
+
+/* base */
+body {
+    color: var(--color-dark-brand);
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.16;
+}
+ul {
+    list-style-type:none;
+}
+address {
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+/* link */
+.link {
+    text-decoration:none;
+}
+.link:hover {
+    color: var(--color-light-brand);
+    font-weight: 700;
+}
+/* hero-title */
+.hero-title {
+    color: var(--color-light-brand);
+    font-family: play, sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.8;
+    text-transform: capitalize;
+}
+/* button */
+
+.button-high {
+    background-color: var(--color-light-brand);
+    color: var(--color-secodary-light);
+    border-radius: 24px;
+    padding: 16px 24px;
+border: 2px solid var(--color-light-brand);
+cursor: pointer;
+font-weight: 600;
+line-height: 1.17;
+
+}
+.button-high:hover {
+background-color: transparent;
+    color: var(--color-dark-brand);
+    border-radius: 24px;
+    padding: 16px 24px;
+    border: 2px solid var(--color-light-brand);
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.17;
+}
+.button-low {
+    background-color: var(--color-light-brand);
+        color: var(--color-secodary-light);
+        border-radius: 32px;
+        padding: 16px 32px;
+        border: 2px solid var(--color-light-brand);
+        cursor: pointer;
+        font-weight: 600;
+        line-height: 1.17
+}
+.button-low:hover {
+background-color: transparent;
+    color: var(--color-dark-brand);
+    border-radius: 32px;
+    padding: 16px 32px;
+    border: 2px solid var(--color-light-brand);
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.17;
+}
+/* hero */
+.hero-paragraph {
+color: var(--color-third);
+font-size: 12px;
+line-height: 1.5;
+}
+/* section */
+.section-titles {
+    font-family: play, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.15;
+}
+.section-titles .accent {
+    color: var(--color-light-brand);
+
+}
+.section-titles .capital {
+    text-transform: capitalize;
+}
+.about-list {
+    font-size: 22px;
+    line-height: 1.72;
+}
+.about-list .brand {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.section-why {
+    color: var(--color-secodary-dark);
+    line-height: 1.3;
+    text-align: center;
+}
+.section-procedures {
+    color: var(--color-secodary-light);
+    font-size: 22px;
+line-height: 1.18;
+text-align: center;
+}
+.section-contact {
+    color: var(--color-secodary-light);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.17;
+    text-align: center;
+    }
+    .section-contact .free {
+        color: var(--color-light-brand);
+
+    }
+    .section-politics {
+        color: var(--color-third);
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .section-politics .conf {
+        text-decoration: underline;
+    }
+    /* footer */
+    .link-foot {
+        color: var(--color-secodary-light);
+        font-size: 16px;
+        line-height: 1.17;
+        text-decoration: none;
+    }
+    .link-foot:hover {
+        color: var(--color-light-brand);
+            font-weight: 700;
+    }
+.foot-doc {
+    color: var(--color-third);
+    font-size: 13px;
+    line-height: 1.17;
+}
